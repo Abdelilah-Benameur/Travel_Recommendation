@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Journey Through the World</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <div>
+        <span><img class="icon" src="./images/airplane.png" /></span>
+        <span><h1>Journey Through the World</h1></span>
+      </div>
+      <ul>
+        <li><a href="./index.html" id="home">Home</a></li>
+        <li><a href="./about.html" id="about">About Us</a></li>
+        <li><a href="./contact.html" id="contact">Contact Us</a></li>
+      </ul>
+      <ul>
+        <li>
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Enter a destination or keyword"
+          />
+        </li>
+        <li><button id="btnSearch">Search</button></li>
+        <li><button id="btnReset">Clear</button></li>
+      </ul>
+    </nav>
+
+    <div class="nav-left">
+      <ul>
+        <li>
+          <a href="https://twitter.com"
+            ><img class="icon-small" src="./images/x.png"
+          /></a>
+        </li>
+        <li>
+          <a href="https://facebook.com"
+            ><img class="icon-small" src="./images/facebook.png"
+          /></a>
+        </li>
+        <li>
+          <a href="https://instagram.com"
+            ><img class="icon-small" src="./images/instagram.png"
+          /></a>
+        </li>
+        <li>
+          <a href="https://youtube.com"
+            ><img class="icon-small" src="./images/youtube.png"
+          /></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="container-left">
+        <div class="title">
+          <h1>JOURNEY THROHGH <br />THE WORLD</h1>
+          <br /><br />
+          <p>
+            Your Guide to Unforgettable Travel Experiences. This title suggests
+            that the website will guide users through their travel journey,
+            offering unforgettable experiences. If you need further assistance,
+            feel free to ask.
+          </p>
+          <br />
+          <button class="book">Book now</button>
+        </div>
+      </div>
+      <div class="container-right">
+        <div class="searchGroup text" id="result"></div>
+      </div>
+    </div>
+
+    <script src="./travel_recommendation.js"></script>
+  </body>
+</html>

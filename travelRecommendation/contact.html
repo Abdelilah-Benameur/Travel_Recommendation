@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Journey Through the World</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <div>
+        <span><img class="icon" src="./images/airplane.png" /></span>
+        <span><h1>Journey Through the World</h1></span>
+      </div>
+      <ul>
+        <li><a href="./index.html" id="home">Home</a></li>
+        <li><a href="./about.html" id="about">About Us</a></li>
+        <li><a href="./contact.html" id="contact">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="nav-left">
+      <ul>
+        <li>
+          <a href="https://twitter.com"
+            ><img class="icon-small" src="./images/x.png"
+          /></a>
+        </li>
+        <li>
+          <a href="https://facebook.com"
+            ><img class="icon-small" src="./images/facebook.png"
+          /></a>
+        </li>
+        <li>
+          <a href="https://instagram.com"
+            ><img class="icon-small" src="./images/instagram.png"
+          /></a>
+        </li>
+        <li>
+          <a href="https://youtube.com"
+            ><img class="icon-small" src="./images/youtube.png"
+          /></a>
+        </li>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="container-left">
+        <div class="title">
+          <h1>CONTACT US</h1>
+        </div>
+
+        <p>Get in touch</p>
+      </div>
+      <div class="form">
+        <div class="text">
+          <div>
+            <label for="name">Name:</label>
+            <textarea
+              type="text"
+              style="height: 3em"
+              id="name"
+              placeholder="Enter your name"
+              required
+            ></textarea>
+          </div>
+          <div>
+            <label>Email:</label>
+            <textarea
+              type="text"
+              style="height: 3em"
+              id="email"
+              placeholder="Enter your email"
+              required
+            ></textarea>
+          </div>
+          <div>
+            <label>Message:</label>
+            <textarea
+              type="text"
+              style="height: 10em"
+              id="message"
+              placeholder="Enter your message"
+              required
+            ></textarea>
+          </div>
+          <button style="width: 100%" id="btnSubmitForm">Submit</button>
+        </div>
+
+        <div class="text" style="margin-bottom: 0">
+          <div style="margin-bottom: 0" id="report"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./contact.js"></script>
+  </body>
+</html>
